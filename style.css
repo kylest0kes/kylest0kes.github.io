@@ -1,8 +1,8 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-family: monospace;
+    font-size: 10px;
     line-height: 150%;
     color: #333;
     background: #efeee7;
@@ -35,10 +35,9 @@ body {
   }
   
   #main-bio,
-  #contact-info,
   #bio-image {
     float: left;
-    font-size: 17px;
+    font-size: 16px;
   }
   
   #main-bio {
@@ -47,6 +46,8 @@ body {
   
   #contact-info {
     width: 30%;
+    float: left;
+    font-size: 16px;
   }
   
   #bio-image {
