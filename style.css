@@ -7,6 +7,11 @@ img{
     padding-right: 10px;
 }
 
+.right{
+    float: right;
+    padding-left: 10px;
+}
+
 p{
     line-height: 30px;
 }
