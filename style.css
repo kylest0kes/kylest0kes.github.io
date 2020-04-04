@@ -18,12 +18,12 @@ img{
 }
 
 p{
-    line-height: 30px;
+    line-height: 25px;
     color: whitesmoke;
     font-size: large;
 }
 
-h2{
+h3{
     color: whitesmoke;
 }
 
@@ -87,21 +87,4 @@ footer{
 .footer-bottom p{
     margin: 0px;
     color: whitesmoke;
-}
-
-@media screen and (max-width: 615px) {
-    .card-body{
-        width: 25rem;
-    }
-    
-    img{
-        float: center;
-        margin: 10px;
-    }
-
-    .right{
-        float: center;
-        margin: 10px;
-    }
-
 }
