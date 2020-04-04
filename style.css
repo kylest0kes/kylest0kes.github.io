@@ -32,6 +32,10 @@ hr{
     border-width: 3px;
 }
 
+.container{
+    display: flex;
+}
+
 .card-body{
     background-color: black;
 }
@@ -83,4 +87,21 @@ footer{
 .footer-bottom p{
     margin: 0px;
     color: whitesmoke;
+}
+
+@media screen and (max-width: 615px) {
+    .card-body{
+        width: 25rem;
+    }
+    
+    img{
+        float: center;
+        margin: 10px;
+    }
+
+    .right{
+        float: center;
+        margin: 10px;
+    }
+
 }
