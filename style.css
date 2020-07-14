@@ -2,10 +2,27 @@ body{
     background-image: url(https://us.123rf.com/450wm/golfmhee/golfmhee1710/golfmhee171000010/88332070-abstract-close-up-bright-wood-texture-over-white-light-natural-color-background.jpg?ver=6);
     font-family: monospace;
     margin-bottom: 100px;
+    
 }
 
 header{
     margin-bottom: 30px;
+}
+
+.mynav{
+    height: 67px;
+}
+
+.jumbotron-fluid{
+    padding-top: 22px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.display-4{
+    text-align: center;
+    margin-bottom: 0;
 }
 
 img{
@@ -27,13 +44,31 @@ h2{
     color: whitesmoke;
 }
 
+h5{
+    text-align: center;
+    font-style: italic;
+}
+
 hr{
     border-color: whitesmoke;
     border-width: 3px;
 }
 
-.container{
+.container-index{
     display: flex;
+}
+
+.portfolio-card{
+    height: 490px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: black;
+}
+
+.card{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
 }
 
 .card-body{
@@ -82,9 +117,96 @@ footer{
 .footer-bottom{
     text-align: center;
     margin: 0px;
+    margin-bottom: 5px;
 }
 
 .footer-bottom p{
     margin: 0px;
     color: whitesmoke;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding-right: 15px;
+    padding-left: 15px;
+} 
+
+#fa-link{
+    font-size: 222px;
+    border: none;
+}
+
+.links{
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 40px;
+    border: transparent;
+}
+
+.contact-links{
+    color: black;
+}
+
+.contact-links:hover{
+    color: darkseagreen;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+}
+
+#project-github{
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    color: whitesmoke;  
+    font-size: 30px;
+    text-align: center;
+}
+
+a:hover{
+    color: whitesmoke;
+    font-style: italic;
+    
+}
+
+label{
+    color: whitesmoke;
+}
+
+.portfolio-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+h6{
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: large;
+  margin-bottom: 0;
+}
+
+#email-form{
+    float: right;
+    width: 50%;
 }
