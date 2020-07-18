@@ -1,6 +1,6 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-    "Full Stack Web Developer with a reputation for thoroughness, determination, & a passion for web design."
+    "Full Stack Web Developer with a reputation for thoroughness, determination, and a passion for web design."
 );
 
 var iSpeed = 50; // time delay of print out
@@ -21,7 +21,7 @@ function typewriter() {
         sContents += aText[iRow++] + "<br />";
     }
     destination.innerHTML =
-        sContents + aText[iIndex].substring(0, iTextPos) + "_";
+        sContents + aText[iIndex].substring(0, iTextPos);
     if (iTextPos++ == iArrLength) {
         iTextPos = 0;
         iIndex++;

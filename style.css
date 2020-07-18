@@ -54,7 +54,7 @@ hr{
 }
 
 .portfolio-card{
-    height: 550px;
+    height: 500px;
     width: 350px;
     background-color: gray;
     border-radius: 20px;
@@ -258,6 +258,12 @@ label{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.port-bio{
+    height:100px;
+    width:320px;;
+    overflow:auto;
 }
 
 h6{
