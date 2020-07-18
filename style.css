@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://us.123rf.com/450wm/golfmhee/golfmhee1710/golfmhee171000010/88332070-abstract-close-up-bright-wood-texture-over-white-light-natural-color-background.jpg?ver=6);
+    background-image: url("./images/bkground.jpg");
     font-family: monospace;
     margin-bottom: 100px;
     
@@ -57,6 +57,11 @@ hr{
     height: 550px;
     width: 350px;
     background-color: gray;
+    border-radius: 20px;
+}
+
+.bio{
+    margin-top: 0;
 }
 
 .about-me{
