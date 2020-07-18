@@ -22,29 +22,24 @@ header{
 
 .display-4{
     text-align: center;
-    margin-bottom: 0;
-}
-
-img{
-    float: left;
-    padding-right: 10px;
-}
-
-.right{
-    float: right;
+    margin-bottom: 15px;
 }
 
 p{
     line-height: 25px;
-    color: whitesmoke;
+    color: black;
     font-size: large;
 }
 
 h2{
-    color: whitesmoke;
+    color: black;
 }
 
-h5{
+h3{
+    text-align: center;
+}
+
+.project-title{
     text-align: center;
     font-style: italic;
 }
@@ -59,28 +54,39 @@ hr{
 }
 
 .portfolio-card{
-    height: 490px;
-    border-style: dashed;
-    border-width: 3px;
-    border-color: black;
+    height: 550px;
+    width: 350px;
+    background-color: gray;
+}
+
+.about-me{
+    width: 80%;
+    border-radius: 20px;
 }
 
 .card{
-    margin-left: 25px;
-    margin-right: 25px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 25px;
+    border-radius: 20px;
+}
+
+.card-text{
+    text-align: center;
 }
 
 .card-body{
-    background-color: black;
+    background-color: gray;
 }
 
 footer{
-    background-color: rgb(52, 58, 64);
+    position: absolute;
     color: rgba(255, 255, 255, .5);
     width: 100%;
     height: auto;
     margin: auto;
+    margin-top: 50px;
 }
 
 .footer-social{
@@ -122,7 +128,7 @@ footer{
 
 .footer-bottom p{
     margin: 0px;
-    color: whitesmoke;
+    color: black;
 }
 
 ul{
@@ -135,6 +141,7 @@ ul{
 li{
     padding-right: 15px;
     padding-left: 15px;
+    color: black;
 } 
 
 #fa-link{
@@ -147,6 +154,18 @@ li{
     padding: 0;
     margin-bottom: 40px;
     border: transparent;
+}
+
+.contact-btns{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contact-link{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .contact-links{
@@ -165,23 +184,60 @@ li{
     background-color: black;
 }
 
+.project-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+}
+
+.project-img{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
 #project-github{
     color: black;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 30px;
 }
 
-a{
-    color: whitesmoke;  
+#project-github:hover{
+    color: darkseagreen;
+}
+
+.res-title{
+    padding-left: 15px;
+}
+
+.resume-dl{
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 115px;
+    padding-left: 15px;
+}
+
+.resume-dl:hover{
+    color: darkseagreen;
+}
+
+.dl-btn{
+    font-size: 150px;
+    margin-top: 15px;
+}
+
+a{ 
     font-size: 30px;
     text-align: center;
 }
 
 a:hover{
-    color: whitesmoke;
-    font-style: italic;
-    
+    color: darkseagreen;    
 }
 
 label{
@@ -194,9 +250,6 @@ label{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
 }
 
 h6{
@@ -206,7 +259,34 @@ h6{
   margin-bottom: 0;
 }
 
-#email-form{
-    float: right;
-    width: 50%;
+.top-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
 }
+
+.connect-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 44px;
+}
+
+.connect-btn{
+    font-size: 50px;
+    color: black;
+}
+
+.connect-col{
+    width: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
